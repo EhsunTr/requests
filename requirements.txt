@@ -4,6 +4,7 @@ pytest-cov
 pytest-httpbin==1.0.0
 httpbin==0.10.0
 werkzeug==0.16.1
+markupsafe==1.1.1
 trustme
 wheel
 cryptography<40.0.0; python_version <= '3.7' and platform_python_implementation == 'PyPy'
