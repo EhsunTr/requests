@@ -34,8 +34,7 @@ jobs:
       uses: codecov/codecov-action@v3
       env:
         CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
-      if: github.event_name == 'push'
-      
+        files: coverage.xml      
     - name: Debug Information
       run: |
         echo "GitHub Event Name: $GITHUB_EVENT_NAME"
